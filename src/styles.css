@@ -1,0 +1,1244 @@
+html,body {
+    overflow-x:hidden;scroll-behavior: smooth;margin: 0px;padding:0;box-sizing: border-box;
+  }
+  /*****************TOP NAVBAR*********************/
+  #topbar {
+    background: #fff;padding: 10px 0;border-bottom: 1px solid #eee;font-size: 14px;
+  }
+  li a, #about-icon{
+    color: black;
+  }
+  #mail-icon{
+    color: black;padding-left: 100px;padding-right: 5px;
+    } 
+  .mailid{
+    padding-right: 10px;color: black;
+  }
+  #phone-icon{
+  border-left: 1px solid #e9e9e9;color: black;padding-left: 20px;padding-right: 5px;
+  }
+  #twitter-icon{
+    padding-left: 645px;font-size: 15px;padding-right: 10px;
+  }
+  #facebook-icon,#instagram-icon,#google-icon, #linkedin-icon{
+    border-left: 1px solid #eee;padding-left: 10px;padding-right: 10px;font-size: 15px;
+  }
+/**************HEADER**********************/
+  header{
+    width: 100%;
+    box-shadow:0 0 1 20px solid gray ;
+    height: 80px;
+   box-shadow:0px 0px  1px gray;
+  }
+  .logo{
+    color: black;font-weight: bolder;padding:0 100px;line-height: 70px;font-size: 40px;
+  }
+  header ul{
+    float: right;
+    margin-right:90px;
+  }
+  header li{
+    display: inline;
+    line-height: 70px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 15px;
+    color: black;
+  }
+  .unactive{
+    text-decoration: none;
+  }
+  header li .active,.unactive:hover,a:link,a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  #check,#menubar-icon{
+    display: none;
+  }
+  /******************SLIDER*****************************/
+  .slider{
+    background:url("https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height:920px;
+    background-blend-mode:lighten; 
+  }
+  .slider-head-1{
+    text-align: center;
+    padding-top: 70px;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 250px;
+  }
+  #slider-head-01{
+  color: black;
+  } 
+.slider-head-001{
+    color: black;
+    padding-left: 10px;   
+    }
+.slider-head-2{
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .slider-button-1{
+    color:white;
+    background-color: black;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left:400px;
+    position: absolute;
+    margin-top:90px;
+    }
+  .slider-button-2{
+  color:white;
+  background-color: black;
+  border: 1px solid transparent;
+  width: 150px;
+  height: 45px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-left:575px;
+  margin-top: 90px;
+  position: absolute;
+  }
+  /*************************section one************************************/
+  .conatiner-fluid{
+    width: 100%;
+  }
+  #about-left{
+    background:url("https://media.istockphoto.com/photos/setting-the-page-on-fire-with-some-hard-work-picture-id492198113?b=1&k=20&m=492198113&s=170667a&w=0&h=CBWxkL9fuZlpUKhnYVsWzcuGGrXiYTs7kxYgOlsSUoY=");
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    width: 550px;
+    height:420px;
+    margin-top:70px;
+    margin-left: 70px;
+    background-blend-mode:lighten;
+  }
+  .about-right{
+    width:550px;
+    margin-top: 70px;
+  }
+  .about-head-2{
+  color:black;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: justify;
+  padding-right: 70px;
+  }
+  .about-head-4{
+    font-weight:300;
+    padding-left: 20px;  
+    margin-left: -20px;  
+    padding-top: 20px;
+    text-align: justify;
+    font-style: italic;
+    color: #555;
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 70px;
+    font-family: "Montserrat", sans-serif;
+  }
+  #about-list{
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 30px;
+    line-height:22px;
+  }
+  /******************service************************/
+  .Services,.contact, .portfolio{
+    width:100%;  
+}
+  .service-head-1{
+  color: black;
+  font-weight: bolder;
+  width: 70px;
+  padding-top: 30px;
+  padding-left: 120px;
+  }
+  .border{
+  border-bottom:4px solid black;
+  width: 55px;
+  margin-left: 220px;
+  }
+  .service-para-1{
+    padding-left: 120px;
+    padding-right: 115px;
+    font-size: 17.3px;
+    padding-top: 20px;
+  }
+  .service-blog-1{
+    width: 530px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left:120px;
+    box-shadow: 10px 10px 5px #dfdbdb;
+    text-align: justify;   
+  }
+  .service-head-2{
+  font-weight: bolder;
+  margin-top: -50px;
+  margin-left: 120px;
+  }
+  .service-para-2{  
+     padding-left: 120px;
+     padding-right: 80px;
+  }
+  #bar-chart-icon{
+    color: black;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .service-blog-2{
+    width: 530px;
+    height: 180px;
+    margin-top: 30px;
+    margin-left:10px;
+    box-shadow: 10px 10px 5px #dfdbdb;
+    text-align: justify;
+  }
+  #photo-icon{
+    color: black;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .service-blog-3{
+    width: 530px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left:120px;
+    box-shadow: 10px 10px 5px #dfdbdb;
+    text-align: justify;
+  }
+  #shopping-bar-icon{
+    color: black;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px; 
+  }
+  .service-blog-4{
+    width: 530px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left:10px;
+    box-shadow: 10px 10px 5px #dfdbdb;
+    text-align: justify;
+  }
+  #map-icon{
+    color: black;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px; 
+  }
+  /*********************SECTION FOUR**************************/
+  #slider-bg{
+    background:url("https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+    background-size: 100%  100%;
+      width: 100%;
+      height: 700px; 
+      background-repeat: no-repeat;
+      margin-left: 0px;
+      margin-top: 40px;
+  } 
+     /***********our portfolio FIVE************************/
+  .portfolio-head-1{
+  color: black;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-left: 120px;
+  }
+  .portfolio-para-1{
+      padding-left: 120px;
+      padding-right:115px;
+      font-size: 17.3px;
+      padding-top: 20px;
+      margin-bottom: 40px;   
+  }
+  .port-head-1{
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  }
+  .port-head-2{
+      text-align: center;
+      color: white;
+      margin-top: -10px;
+      font-size: 25px;
+      font-weight: bold;
+      }
+  #portfolio-blog-1{
+      background:url("https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wJTIwd2l0aCUyMHN0YXRpY3MlMjBjaGFydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100%  100%;
+      width: 337px;
+      height: 250px; 
+      background-repeat: no-repeat;
+      margin-left: 0px;
+  }  
+  #portfolio-blog-2{
+      background:url("https://media.istockphoto.com/photos/click-here-and-it-should-direct-you-further-picture-id1209869264?b=1&k=20&m=1209869264&s=170667a&w=0&h=dGbPJ8Beo5oTkIEg6Yxh8bX057_lkx4L7qqTbs7dzsA=") ;
+      background-size: 100% 100%;
+      width: 337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+  }
+  #portfolio-blog-3{
+      background:url("https://images.unsplash.com/photo-1558403194-611308249627?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHRlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100% 100%;
+      width: 337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+  }
+  #portfolio-blog-4{
+      background:url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100% 100%;
+      width: 337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+      margin-left: 0px;
+  }
+  #portfolio-blog-5{
+      background:url("https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100% 100%;
+      width: 337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+      margin-left: 0px;
+      margin-top: -52px;
+  }
+  #portfolio-blog-6{
+      background:url("https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJ1c2luZXNzJTIwbWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100% 100%;
+      width:337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+      margin-top: -52px;
+  }
+#portfolio-blog-7{
+      background:url("https://images.unsplash.com/photo-1507099985932-87a4520ed1d5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdGl2aXR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100% 100%;
+      width: 337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+      margin-top: -52px;
+  }
+  #portfolio-blog-8{
+      background:url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnVzaW5lc3MlMjBkZXZlbGVwbWVudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+      background-size: 100% 100%;
+      width: 337px;
+      height: 300px; 
+      background-repeat: no-repeat;
+      margin-top: -52px;
+      margin-right: 0px;
+    }
+  /**********SECTION SIX***********/
+  .subscribe{
+      margin-top:80px;
+      width: 100%;
+      height:350px;
+      background-repeat:no-repeat;
+      background:rgba(0,0,0,0.7)url("https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+      background-blend-mode:darken;
+      color: white;
+  }
+  #head-6{
+      text-align: center;
+      padding-left: 20px;
+  }
+  #paragraph{
+   text-align: center;
+   font-size:20px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+  .email{
+  background-color: transparent;
+  border-radius:20px;
+  margin-left:400px;
+  border: 2px solid white;
+  width: 400px;
+  height:50px;
+  }
+  .subscribe-button{
+     background: black;
+     background-color: black;
+      border: 1px solid white;
+      color: white;
+      padding: 5px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-top-right-radius:30px;
+      border-bottom-right-radius:30px;
+      width: 150px;
+      height: 50px;
+      margin-left: -20px;
+  }
+  /***********testimonial************************/
+  .testimonial{
+    width:100%;
+    margin-top:90px;
+  }
+  .testimonial-head-1{
+  color: black;
+  font-weight: bolder;
+  padding-top: -10px;
+  padding-left: 123px;
+  margin-top: -80px;
+  }
+  .border{
+    border-bottom:4px solid black;
+    width: 55px;
+    margin-left: 22px;
+    }
+  .testimonial-para-1{
+    padding-left: 120px;
+    padding-right:115px;
+    font-size: 17.3px;
+   padding-top: 20px;
+  }
+  .test-blog-1{
+    width:330px;
+    box-shadow: 0 0 5px rgb(211, 206, 206);
+    margin-left: 140px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right:40px;
+    text-align: center;
+    font-size: 16px;
+    height: 360px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  .test-blog-2{
+    width:330px;
+    box-shadow: 0 0 5px rgb(211, 206, 206);
+    margin-left: 55px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 16px;
+    height: 360px;
+    margin-top: 20px;
+    font-style:italic ;
+  }
+  #quote-icon{
+    color:black;
+    opacity: 0.3;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  #testimonial-img-1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  #testimonial-img-2{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  .test-blog-3{
+    width:330px;
+    box-shadow: 0 0 5px rgb(211, 206, 206);
+    margin-left:-30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 16px;
+    height: 360px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  #testimonial-img-3{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  /***************SECTION SEVEN************/
+  .team{
+    padding-top: 30px;
+    width: 100%;
+  } 
+  #card-box{
+  margin-bottom: 200px;
+    padding-top: 30px;
+  }
+  #cardspace{
+  margin-left:150px;
+  }
+  .card1{
+   width:230px;
+   height: 320px;
+   margin-left:50px;
+   border:1px solid gainsboro;
+   border-radius: 0px;
+   background: url("https://media.istockphoto.com/photos/hispanic-female-business-professional-in-office-boardroom-picture-id1272687005?b=1&k=20&m=1272687005&s=170667a&w=0&h=CJhaaRC5p__lZrrfVq9eKkVBGRDBHJBCVtd-l5ie0CY=");
+   background-size: 100% 250px;
+   background-repeat: no-repeat; 
+   text-align: center;
+   padding-top: 260px;
+  }
+  .card2{
+   width:230px;
+   height: 320px;
+   margin-left:50px;
+   border:1px solid gainsboro;
+   border-radius: 0px;
+   background: url("https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1c2luZXNzJTIwbWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+   background-size: 100% 250px;
+   background-repeat: no-repeat; 
+   text-align: center;
+   padding-top: 260px;
+  }
+  .card3{
+   width:230px;
+   height:320px;
+   margin-left:50px;
+   border:1px solid gainsboro;
+   border-radius: 0px;
+   background: url("https://media.istockphoto.com/photos/photo-of-attractive-charming-lady-cute-bobbed-hairdo-arms-crossed-picture-id1281083606?b=1&k=20&m=1281083606&s=170667a&w=0&h=WzMW1rjjuoOdO1WLcQyDbgB-a94N8XN2IayjohebpHg=");
+   background-size: 100% 250px;
+   background-repeat: no-repeat; 
+   text-align: center;
+   padding-top: 260px;
+  }
+  .card4{
+   width:230px;
+   height: 320px;
+   margin-left:50px;
+   border:1px solid gainsboro;
+   border-radius: 0px;
+   background: url("https://media.istockphoto.com/photos/portrait-of-young-businessman-with-crossed-arms-in-office-picture-id1255168295?b=1&k=20&m=1255168295&s=170667a&w=0&h=GEHeZoGmw7OQh-9YUsNrfbmcfqvuWdSyx_RuxIZyG5c=");
+   background-size: 100% 250px;
+   background-repeat: no-repeat;
+   text-align: center;
+   padding-top: 260px;
+  }
+  #card-para{
+   text-align: center;
+  }
+  /**************contact***************/
+  .contact-head-1{
+    color: black;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 120px;
+    }
+    .contact-para-1{
+        padding-left: 120px;
+        padding-right:115px;
+        font-size: 17.3px;
+       padding-top: 20px;
+    }
+  .contact-blog-1{
+   margin-left: 160px;
+   margin-top: 70px;
+  }
+  #marker-icon{
+  color: black;
+  padding-left: 120px;
+  font-size: 50px;
+  }
+  .call-head-2{
+    text-align: center;
+  }
+  .call-head-3{
+    text-align: center;
+  }
+  .contact-blog-2{
+    margin-left:40px;
+    margin-top: 70px;
+    border-left: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  .call-head-4{
+    text-align: center;
+  }
+  .call-head-5{
+  text-align: center;  
+  }
+  #phone-icon-1{
+  color: black;
+  padding-left: 160px;
+  font-size: 50px;
+  }
+  #phone-icon-1{
+  color: black;
+  padding-left: 190px;
+  font-size: 50px;
+  }
+  .contact-blog-3{
+    margin-left:-10px;
+    margin-top: 70px;
+    border-left: 1.5px solid #eee;
+    padding-bottom: 20px;
+  }
+  .call-head-6{
+    text-align: center;
+    }
+    .call-head-7{
+    text-align: center;
+    }
+    #email-icon-1{
+    color: black;
+    padding-left: 190px;
+    font-size: 50px;
+    }
+  /**********************map**********************/
+  .map{
+    width: 100%;
+    margin-top: 50px;
+  }
+  /********form*****/
+  form{
+    margin-left: 300px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  #text,#number{
+    width:500px;
+    height: 40px;
+    padding:10px;
+  }
+  #ebtn,#message{
+      width:500px;
+      height: 40px;
+      padding:10px;
+  }  
+#submitbutton{
+   width:200px;
+   height: 40px; 
+   margin-left:130px;
+   margin-top: 20px;
+}
+  .form-control.ng-touched.ng-invalid{
+    border: 1px solid red;
+  }
+  /*******************footer******************************/
+footer{
+    background-color: black;
+    margin-top: 40px;
+    width: 100%;
+    height: 90px;
+    padding-top: 20px;
+}
+
+ /**************MEDIA QUERY********************/
+ @media screen and (max-width:767px) and (min-width:320px) {
+    header{
+      width: 100%;
+      box-shadow:0 0 8px 20px solid gray ;
+      height: 80px;
+    }
+    .logo{
+      color: black;
+      font-weight: bolder;
+      padding:0 10px;
+      line-height: 75px;
+      font-size: 40px;
+      margin-left:5px;
+    }
+    header ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+       top:90px;  
+       left: -100%;
+       text-align: center;
+       transition: all .5s;
+    }
+    header li{
+      display: block;
+      line-height: 70px;
+      margin:0 50px;
+    }
+    #check{
+      display: none;
+      float: right;
+    }
+    #check:checked~ul{
+      left: 0;
+    }
+    #menubar-icon{
+      display:block;
+      float: right;
+      margin-right: 18px;
+      line-height:75px ;
+      font-size: 40px;
+    }
+    #topbar{
+        width: 100%;
+        display:block;
+    }
+        #twitter-icon,#facebook-icon,#instagram-icon,#linkedin-icon,#google-icon{
+        display: none;
+        }
+        #mail-icon{
+            color: black;
+            padding-left: 18px;
+            padding-right: 5px;
+            } 
+            #phone-icon{
+                border-left:none;
+                padding-left: 10px;
+                padding-right: 5px;
+                }
+                .slider{
+                    background: url("/assets/image/slider.jpg");
+                    background-repeat: no-repeat;
+                    background-size:cover;
+                    width: 100%;
+                    height:300px;
+                }
+                .slider-head-1{
+                    text-align: center;
+                    padding-top:25px;
+                    color: black;
+                    font-size: 35px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                #slider-head-01{
+                    color: black;
+                    }
+                    .slider-head-001{
+                        color: black;
+                        padding-left: 10px;   
+                        }
+                .slider-head-2{
+                    text-align: center;
+                    color: black;
+                    font-size: 35px;
+                    margin-top: -10px;
+                    margin-left: 0px;
+                }
+                .slider-button-1{
+                    color:white;
+                    background-color: black;
+                    border: 1px solid transparent;
+                    width: 150px;
+                    height: 40px;
+                    font-weight: bold;
+                    border-radius: 3px;
+                    margin-left:95px;
+                    position: absolute;
+                    margin-top:10px;
+                    }
+                    .slider-button-2{
+                        color:white;
+                        background-color: black;
+                        border: 1px solid transparent;
+                        width: 150px;
+                        height: 40px;
+                        font-weight: bold;
+                        border-radius: 3px;
+                        margin-left:95px;
+                        margin-top: 60px;
+                        position: absolute;
+                        }
+                        .conatiner-fluid{
+                            width: 100%;
+                        }
+                        #about-left{
+                            background:url("/assets/image/about.jpg");
+                            background-repeat: no-repeat;
+                            background-size:100% auto;
+                            width: 100%;
+                            height:250px;
+                            margin-top:70px;
+                            margin-left:-2px;
+                        }
+                        .about-right{
+                            width:100%;
+                            margin-top:10px;
+                        }
+                        .about-head-2{
+                            color:black;
+                            font-weight: bolder;
+                            font-size: 35px;
+                            text-align: left;
+                            padding-right:5px;
+                            padding-left: 4px;
+                            }
+                        .about-head-4{
+                            font-weight:lighter;
+                            font-size: 18px;
+                            padding-left: 27px;  
+                            margin-left: -20px;  
+                            padding-top: 30px;
+                            text-align: justify;
+                            padding-right: 10px;
+                        }
+                        #about-list{
+                            font-size: 16px;
+                            text-align: justify;
+                            padding-top: 10px;
+                            padding-right: 10px;
+                            line-height:22px;
+                            padding-left: 10px;
+                        }
+                        #about-icon{
+                            color: black;
+                        }  
+                        .Services{
+                            width:100%;
+                           }
+                          .service-head-1{
+                          color: black;
+                          font-weight: bolder;
+                          padding-top: 30px;
+                          margin-left: -102px;
+                          }
+                          .border{
+                            border-bottom:4px solid black;
+                            width: 55px;
+                            margin-left: 22px;
+                            }
+                          .service-para-1{
+                            margin-left: -100px;
+                            font-size: 16px;
+                            margin-right: -90px;
+                            text-align: justify;
+                            }
+                            .service-head-2{
+                                font-weight: bolder;
+                                margin-top: 10px;
+                                margin-left:95px ;
+                                }
+                                .service-para-2{  
+                                     padding-left: 25px;
+                                     padding-right: 25px;
+                                     text-align: center;
+                                }
+                            .service-blog-1{
+                                width: 325px;
+                                height: 280px;
+                                margin-top: 20px;
+                                margin-left:15px;
+                                box-shadow: 10px 10px 5px #dfdbdb;
+                                text-align: justify;
+                            }
+                            #bar-chart-icon{
+                                color: black;
+                                font-size: 70px;
+                                padding-left: 130px;
+                                padding-right: 20px;
+                            }
+                            .service-blog-2{
+                                width: 325px;
+                                height: 280px;
+                                margin-top: 30px;
+                                margin-left:15px;
+                                box-shadow: 10px 10px 5px #dfdbdb;
+                                text-align: justify;
+                            }
+                            #photo-icon{
+                                color: black;
+                                font-size: 70px;
+                                padding-left: 130px;
+                                padding-right: 20px;
+                            }
+                            .service-blog-3{
+                                width: 325px;
+                                height: 280px;
+                                margin-top: 30px;
+                                margin-left:15px;
+                                box-shadow: 10px 10px 5px #dfdbdb;
+                                text-align: justify;
+                            }
+                            #shopping-bar-icon{
+                                color: black;
+                                font-size: 70px;
+                                padding-left: 130px;
+                                padding-right: 20px; 
+                            }
+                            .service-blog-4{
+                                width: 325px;
+                                height: 280px;
+                                margin-top: 30px;
+                                margin-left:15px;
+                                box-shadow: 10px 10px 5px #dfdbdb;
+                                text-align: justify;
+                            }
+                            #map-icon{
+                                color: black;
+                                font-size: 70px;
+                                padding-left: 130px;
+                                padding-right: 20px; 
+                            }   
+                            .slider-bg{
+                                width: 100%;
+                                font-size: 10px;
+                            }
+                            .portfolio{
+                                width:100%;
+                               }
+                              .portfolio-head-1{
+                              color: black;
+                              font-weight: bolder;
+                              padding-top: 30px;
+                              margin-left: -105px;
+                              }
+                              .portfolio-para-1{
+                                margin-left: -100px;
+                                font-size: 15px;
+                                margin-right: -90px;
+                                text-align: justify;
+                                }
+                                #portfolio-blog-1{
+                                  background:url("/assets/image/portfolio-blog-1.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-left: 35px;
+                              }  
+                              #portfolio-blog-2{
+                                  background:url("/assets/image/portfolio-blog-2.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-left: 35px;
+                              }
+                              #portfolio-blog-3{
+                                  background:url("/assets/image/portfolio-blog-3.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-left: 35px;
+                              }
+                              #portfolio-blog-4{
+                                  background:url("/assets/image/portfolio-blog-4.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-left: 35px;
+                              }
+                              #portfolio-blog-5{
+                                  background:url("/assets/image/portfolio-blog-5.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-left: 35px;
+                                  margin-top: -5px;
+                              }
+                              #portfolio-blog-6{
+                                  background:url("/assets/image/portfolio-blog-6.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-top: -5px;
+                                  margin-left: 35px;
+                              }
+                              #portfolio-blog-7{
+                                  background:url("/assets/image/portfolio-blog-7.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-top: -5px;
+                                  margin-left: 35px;
+                              }
+                              #portfolio-blog-8{
+                                  background:url("/assets/image/portfolio-blog-8.jpg") ;
+                                  background-size: 100% auto;
+                                  width: 315px;
+                                  height: 300px; 
+                                  background-repeat: no-repeat;
+                                  margin-top: -5px;
+                                  margin-left: 35px;
+                              }
+                              .subscribe{
+                                width:100%;
+                                height: 395px;
+                                margin-top:10px; 
+                                     }
+                             #paragraph{
+                             text-align: center;
+                             font-size:15px;
+                             }
+                             .email{
+                             background-color: transparent;
+                             border-radius:20px;
+                             margin-left:10px;
+                             border: 2px solid white;
+                             width:100px;
+                             height:50px;
+                             margin-left:130px;
+                             text-align: center;
+                             padding: auto;
+                             }
+                             .subscribe-button{
+                             background: black;
+                             background-color: black;
+                             border: 1px solid white;
+                             color: white;
+                             padding: 5px 12px;
+                             text-align: center;
+                             text-decoration: none;
+                             display:block;
+                             font-size: 16px;
+                             margin: 4px 2px;
+                             cursor: pointer;
+                             border-radius:30px;
+                             width:150px;
+                             height:50px;
+                             margin-left:110px;
+                             margin-top: 20px;
+                             }
+                            .testimonial{
+                                width:100%;
+                                margin-top: 70px;
+                               }
+                              .testimonial-head-1{
+                              color: black;
+                              font-weight: bolder;
+                              padding-top: 30px;
+                              margin-left: -105px;
+                              }
+                              .testimonial-para-1{
+                                margin-left: -100px;
+                                font-size: 15px;
+                                margin-right: -90px;
+                                text-align: justify;
+                                }
+                                .test-blog-1{
+                                  margin-top: 20px;
+                                  width:315px;
+                                  box-shadow: 0 0 5px rgb(211, 206, 206);
+                                  margin-left: 20px;
+                                  border-radius: 5px;
+                                  padding-left: 20px;
+                                  padding-top: 10px;
+                                  padding-right: 30px;
+                                  text-align: center;
+                                  font-size: 16px;
+                                  height: 370px;
+                              }
+                              .test-blog-2{
+                                  width:315px;
+                                  box-shadow: 0 0 5px rgb(211, 206, 206);
+                                  margin-left: 20px;
+                                  margin-top: 20px;
+                                  border-radius: 5px;
+                                  padding-left: 20px;
+                                  padding-top: 10px;
+                                  padding-right: 30px;
+                                  text-align: center;
+                                  font-size: 16px;
+                                  height: 370px;
+                                  display: none;
+                              }
+                              .test-blog-3{
+                                  width:315px;
+                                  box-shadow: 0 0 5px rgb(211, 206, 206);
+                                  margin-left:20px;
+                                  margin-top: 20px;
+                                  border-radius: 5px;
+                                  padding-left: 20px;
+                                  padding-top: 10px;
+                                  padding-right: 30px;
+                                  text-align: center;
+                                  font-size: 16px;
+                                  height: 370px;
+                                  display: none;
+                              }
+                              .team{
+                                width: 100%;
+                                padding-top: 30px;
+                                max-width:100%;
+                            }
+                           .card1{
+                            width:345px;
+                            height:500px;
+                            margin-left:8px;
+                            border:1px solid gainsboro;
+                            border-radius: 0px;
+                            margin-bottom: 20px;
+                            background: url("/assets/image/team-1.jpg");
+                            background-size:100% 400px;
+                            background-repeat: no-repeat;
+                            padding-top:430px;
+                            color: black;
+                            text-align: center;
+                          }
+                            .card2{
+                            width:345px;
+                            height:500px;
+                            margin-left:8px;
+                            border:1px solid gainsboro;
+                            border-radius: 0px;
+                            margin-bottom: 20px;
+                            background: url("/assets/image/team-2.jpg");
+                            background-size:100% 400px;
+                            background-repeat: no-repeat;
+                            padding-top:430px;
+                            color: black;
+                            text-align: center;
+                            }	
+                          .card3{
+                            width:345px;
+                            height:500px;
+                            margin-left:8px;
+                            border:1px solid gainsboro;
+                            border-radius: 0px;
+                            margin-bottom: 20px;
+                            background: url("/assets/image/team-3.jpg");
+                            background-size:100% 400px;
+                            background-repeat: no-repeat;
+                            color: black;
+                            padding-top:430px;
+                            color: black;
+                            text-align: center;
+                          }
+                          .card4{
+                            width:345px;
+                            height:500px;
+                            margin-left:8px;
+                            border:1px solid gainsboro;
+                            border-radius: 0px;
+                            margin-bottom: 20px;
+                            background: url("/assets/image/team-4.jpg");
+                            background-size:100% 400px;
+                            background-repeat: no-repeat;
+                            padding-top: 170px;
+                            color: black;
+                            padding-top:430px;
+                            color: black;
+                            text-align: center;
+                          }
+                          #cardspace{
+                          margin-left:80px;
+                          margin-bottom: 20px;
+                          }
+                              .contact{
+                                width:100%;
+                               }
+                              .contact-head-1{
+                              color: black;
+                              font-weight: bolder;
+                              padding-top: 30px;
+                              margin-left: -103px;
+                              }
+                              .border{
+                                border-bottom:4px solid black;
+                                width: 55px;
+                                margin-left: 22px;
+                                }
+                              .contact-para-1{
+                                margin-left: -100px;
+                                font-size: 15px;
+                                margin-right: -90px;
+                                text-align: justify;
+                                }
+                            .contact-blog-1{
+                                margin-left: 130px;
+                                margin-top: 70px;
+                            }
+                            .contact-blog-2{
+                                margin-left:20px;
+                                margin-top: 70px;
+                                border-left: none;
+                                padding-bottom: 20px;
+                             }
+                            .contact-blog-3{
+                                margin-left:20px;
+                                margin-top: 70px;
+                                border-left: none;
+                                padding-bottom: 20px;
+                             }
+                            #marker-icon{
+                                color: black;
+                                padding-left: 45px;
+                                font-size: 50px;
+                               }
+                               .call-head-2{
+                                   text-align: center;
+                                   margin-left: -105px;
+                               }
+                            .call-head-3{
+                                text-align: center;
+                                margin-left: -105px;
+                            }
+                            .call-head-4{
+                                text-align: center;
+                            }
+                          .call-head-5{
+                             text-align: center;
+                          }
+                          #phone-icon-1{
+                            color: black;
+                            padding-left: 145px;
+                            font-size: 50px;
+                           }
+                          .call-head-6{
+                            text-align: center;
+                          }
+                          .call-head-7{
+                          text-align: center;
+                          }
+                          #email-icon-1{
+                            color: black;
+                            padding-left: 140px;
+                            font-size: 50px;
+                           }
+                              .map{
+                                width: 100%;
+                            }
+                              form{
+                                margin-left: 0px;
+                                padding: 20px;
+                              }
+                    #text,#ebtn,#number,#message{
+                                width:320px;
+                                margin-left: -15px;
+                                padding:10px;
+                                margin-top: 10px;
+                              }
+                            #submitbutton{
+                               width:200px;
+                               height: 40px; 
+                               margin-left:50px;
+                               margin-top: 20px;
+                            }
+                              footer{
+                                background-color: black;
+                                margin-top: 40px;
+                                width: 100%;
+                                height: 120px;
+                                padding-top: 20px;
+                            }
+}
